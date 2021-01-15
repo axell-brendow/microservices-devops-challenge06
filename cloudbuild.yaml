@@ -1,0 +1,6 @@
+steps:
+
+- id: "Run tests"
+  name: 'gcr.io/cloud-builders/go'
+  env: ['GOPATH=.']
+  args: ['test', 'challenge06', '-v', '-cover']
