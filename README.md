@@ -9,7 +9,9 @@ Course "[Architecting and Developing modern and scalable applications based on M
 To create this Deployment in your cluster:
 
 ```
-kubectl apply -f .
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+kubectl apply -f hpa.yaml
 ```
 
 To test the auto scaler, run `kubectl run -it loader --image=busybox /bin/sh`
