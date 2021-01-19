@@ -27,3 +27,4 @@ In another terminal, you can see auto scaler working with `kubectl get hpa`. If 
 - [Apply CI (Continuous Integration) to test and create a docker image of a simple Go application](https://github.com/axell-brendow/microservices-devops-challenge04)
 - [3 Nginx replicas with a Load Balancer; MySQL with Secret Object and PersistentVolume; Http server in Go with CI and tests in GCP](https://github.com/axell-brendow/microservices-devops-challenge05)
 - [Apply a Horizontal Pod Autoscaler in a Go application under high usage](https://github.com/axell-brendow/microservices-devops-challenge06)
+- [Mount CI/CD pipeline for a Go application using Docker, Google Cloud Build and Kubernetes](https://github.com/axell-brendow/microservices-devops-challenge07)
